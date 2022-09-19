@@ -20,7 +20,8 @@
     margin-left: 10px;
 }
 .p-pic{
-    background-image: url(/images/my\ circle\ pic.png);
+    background-image: url(./images/mypic.jpeg);
+    border-radius: 100px;
     height: 150px;
     width: 150px;
     background-size: cover;
