@@ -1,0 +1,143 @@
+.m-con{
+    height: 1500px;
+    width: 100%;
+    border: 1px solid grey;
+    display: flex;
+    padding: 20px;
+}
+.con-l{
+    height: 1400px;
+    width: 300px;
+    border: 4px solid black;
+    box-shadow: 9px 5px 3px rgb(44, 43, 43);
+    background-color: rgb(29, 28, 28);
+}
+.con-r{
+    height: 1400px;
+    width: 940px;
+    border: 4px solid black;
+    box-shadow: 9px 5px 3px rgb(44, 43, 43);
+    margin-left: 10px;
+}
+.p-pic{
+    background-image: url(/images/my\ circle\ pic.png);
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+    margin-left: 30%;
+    margin-top: 5px;
+    filter: drop-shadow(3px 5px 5px rgb(168, 162, 162)); 
+}
+h2{
+    color: white;
+    text-align: center;
+    
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 13.3px;
+}
+.social{
+    margin-top: 5px;
+    margin-left:15px;
+    color: white;
+    
+    letter-spacing: 1px;
+    font-style: oblique;
+    display:grid;
+    grid-template-columns: 12fr;
+}
+.e-details{
+    display: grid;
+    grid-template-columns: 12fr;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+}
+.education{
+    margin-top: 10px;
+    height: 979px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    padding: 20px; 
+}
+.career-objective{
+    font-style: italic;
+    text-justify: newspaper;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: -20px;
+    color: rgb(0, 0, 0);
+    
+    
+}
+.career-objective::first-letter{
+    font-size: 30px;
+}
+p::selection{
+    background-color: yellow;
+    color: red;
+}
+.hobbies{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    text-align: center;
+    align-items: center;
+    
+}
+.hobbies span{
+    font-size: 40px;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: rgb(216, 211, 211);
+        box-shadow: 2px 2px 10px black;
+}
+.hobbies i{
+    font-size: 40px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 20px;
+    background-color: rgb(216, 211, 211);
+    box-shadow: 2px 2px 3px black;
+}
+.work-date{
+    margin-top: -10px;
+    margin-left: -31px;
+}
+.work-date span{
+    padding: 50px;
+    
+    
+}
+ul{
+    margin-left: 35px;
+    margin-top: 5px;
+}
+.mywork{
+    margin-top: 20px;
+    height: 300px;
+    width: 100%;
+    display: flex;
+   
+    margin-left: -5px;
+    
+}
+.mywork div{
+    margin-left: 10px;
+}
+.box{
+    height: 320px;
+    width: 60%;
+    border: 1px solid black;
+   
+    margin-left: -20px;
+    margin-top: -2px;
+}
+.imgpic{
+    height: 250px;
+    width: 100%;
+    border: 1px solid black;
+}
